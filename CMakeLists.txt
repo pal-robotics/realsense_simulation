@@ -1,13 +1,20 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.8)
 project(realsense_simulation)
 
-find_package(catkin REQUIRED COMPONENTS
-    )
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
 
-# RealSense description
-catkin_package(
-    )
+# find dependencies
+find_package(ament_cmake_auto REQUIRED)
 
-# Install files
-install(DIRECTORY urdf
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+# building
+ament_auto_find_build_dependencies()
+
+# tests setup
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_auto_package(INSTALL_TO_SHARE urdf)
