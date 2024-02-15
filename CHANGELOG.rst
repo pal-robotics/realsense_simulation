@@ -2,8 +2,8 @@
 Changelog for package realsense_simulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.3 (2024-02-16)
+------------------
 * Merge branch 'mlu/fix/remove-rosunit' into 'alum-devel'
   Remove test_depend on rosunit
   See merge request vision/realsense_simulation!2
