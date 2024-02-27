@@ -2,6 +2,15 @@
 Changelog for package realsense_simulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'smd/fix/topic_names' into 'alum-devel'
+  Added dependencies to realsense_gazebo_plugin and fix camera prefix topic names
+  See merge request vision/realsense_simulation!3
+* Remove not used camera_info topic names in all cameras
+* Added dependencies to realsense_gazebo_plugin and fix camera prefix topic names
+* Contributors: sergiomoyano
+
 2.0.3 (2024-02-16)
 ------------------
 * Merge branch 'mlu/fix/remove-rosunit' into 'alum-devel'
