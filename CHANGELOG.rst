@@ -2,8 +2,8 @@
 Changelog for package realsense_simulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.4 (2024-02-27)
+------------------
 * Merge branch 'smd/fix/topic_names' into 'alum-devel'
   Added dependencies to realsense_gazebo_plugin and fix camera prefix topic names
   See merge request vision/realsense_simulation!3
