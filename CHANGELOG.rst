@@ -2,8 +2,8 @@
 Changelog for package realsense_simulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.5 (2024-08-21)
+------------------
 * Merge branch 'abr/fix/update-rate' into 'alum-devel'
   uniform update_rate to 30hz to improve performance
   See merge request vision/realsense_simulation!4
