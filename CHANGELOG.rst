@@ -2,6 +2,14 @@
 Changelog for package realsense_simulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/aca/d405-ros2' into 'alum-devel'
+  added d405 gazebo
+  See merge request vision/realsense_simulation!7
+* added d405 gazebo
+* Contributors: andreacapodacqua
+
 2.0.5 (2024-08-21)
 ------------------
 * Merge branch 'abr/fix/update-rate' into 'alum-devel'
