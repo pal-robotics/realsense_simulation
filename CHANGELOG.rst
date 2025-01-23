@@ -2,8 +2,8 @@
 Changelog for package realsense_simulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2025-01-23)
+------------------
 * Merge branch 'feat/aca/d405-support' into 'gallium-devel'
   added d405 support ROS 1
   See merge request vision/realsense_simulation!6
