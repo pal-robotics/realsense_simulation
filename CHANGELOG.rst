@@ -2,8 +2,8 @@
 Changelog for package realsense_simulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.1 (2025-06-12)
+------------------
 * fix name of cameranode and topic
 * Contributors: andreacapodacqua
 
